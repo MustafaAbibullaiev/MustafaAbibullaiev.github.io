@@ -1,6 +1,49 @@
+* {
+    margin: none;
+    padding: none;
+}
+
+body {
+    background-color: darkseagreen;
+}
+
 .main {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 85vh;
+}
+
+.bio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5vh;
+}
+
+.image {
+    width: 600px;
+}
+
+#like {
+    border: none;
+    border-radius: 20%;
+    margin-left: 10px;
+    background-color: thistle;
+    width: 50px;
+    height: 40px;
+    font-size: 30px;
+    color: darkblue;
+}
+
+footer {
+    background-color: darkcyan;
+    color: white;
+    height: 10vh;
+}
+
+footer div {
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }

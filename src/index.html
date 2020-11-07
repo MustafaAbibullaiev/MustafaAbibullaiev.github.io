@@ -1,17 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>PPSE Lecture</title>
+    <title>MustafaAbibullaiev.github.io</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="./styles/index.css">
-    
 </head>
 <body>
     <main class="main">
-        <img src="./img/me.jpg" alt="just me">
+        <img class="image" src="./img/me.jpg" alt="just me">
     </main>
     <div class="bio">I am just a dev <button id="like">&hearts;</button></div>
-    <script src="./script/index.ts"></script>
+    <footer>
+        <div><p id="author">Made by Mustafa Abibullaiev</p></div>
+        <div><p id="year"></p></div>
+        <script>
+            let year = new Date().getFullYear();
+            document.getElementById("year").innerHTML = year;
+        </script>
+    </footer>
+    <script src="./script/index.js"></script>
 </body>
 </html>
